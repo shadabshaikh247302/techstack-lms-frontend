@@ -54,7 +54,7 @@ export default function StudentLoginForm() {
               <div className="icon-container  mb-2">
                 <img
                  style={{ width: "70px", height: "auto" }}
-                src="/Avatar/student.png" alt="Faculty" />
+                src="/Avatar/Student.png" alt="Faculty" />
               </div>
               <h6>Student</h6>
             </div>
