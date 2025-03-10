@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext, useEffect, useState } from "react";
-import BooleanButton from "../Button/BooleanButton";
+import BooleanButton from "../Button/booleanButton";
 
 import CourseDropdown from "../Dropdown/CourseDropdown";
 import EmiDrowdown from "../Dropdown/EmiDropdownModal";

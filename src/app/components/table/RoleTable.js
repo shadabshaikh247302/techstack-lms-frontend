@@ -5,7 +5,7 @@ import { createRole, getAllRole, updateRole, deleteRole, } from "@/app/api/roleA
 import { getAllEmp } from "@/app/api/employeeApi";
 
 import EditButton from "../Button/EditButton";
-import DeleteButton from "../Button/DeleteButton";
+import DeleteButton from "../Button/deleteButton";
 
 import { EmployeeContext } from "@/app/context/EmployeeContext";
 import { MainAdminContext } from "@/app/context/AdminContext";

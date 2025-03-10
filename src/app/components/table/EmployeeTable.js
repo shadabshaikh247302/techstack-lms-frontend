@@ -2,7 +2,7 @@
 import { useState, useContext } from "react";
 import EditEmployeeFormModal from "../Form/EditEmployeeFormModal";
 import EditButton from "../Button/EditButton";
-import DeleteButton from "../Button/DeleteButton";
+import DeleteButton from "../Button/deleteButton";
 import EmployeeStatusDropdown from "../Dropdown/EmployeeStatusDropdown";
 import Link from "next/link";
 import { getAllEmp, updateEmp, deleteEmp } from "@/app/api/employeeApi";

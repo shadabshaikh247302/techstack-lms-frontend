@@ -2,7 +2,7 @@
 import React, { useState, useContext } from "react";
 import EditCourseFormModal from "../Form/EditCourseFormModal";
 import EditButton from "../Button/EditButton";
-import DeleteButton from "../Button/DeleteButton";
+import DeleteButton from "../Button/deleteButton";
 import { deleteCourse, updateCourse } from "@/app/api/courseApi";
 import toast from "react-hot-toast";
 import { MainAdminContext } from "@/app/context/AdminContext";
