@@ -7,7 +7,7 @@ import { getAllPayment } from "@/app/api/paymentApi";
 
 import { PaymentContext } from "@/app/context/PaymentContext";
 import { MainAdminContext } from "@/app/context/AdminContext";
-import { StudentContext } from "../../../context/StudentContext";
+import { StudentContext } from "../../../context/studentContext";
 import { UserContext } from "@/app/context/UserContext";
 
 import Loader from "@/app/components/common/Loader";

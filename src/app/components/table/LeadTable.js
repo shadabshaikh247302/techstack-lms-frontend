@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import CourseDropdown from "../Dropdown/CourseDropdown";
-import BooleanButton from "../Button/BooleanButton";
+import BooleanButton from "../Button/booleanButton";
 import ToggleDemoButton from "../Button/ToggleDemoButton";
 import LeadStatusDropdown from "../Dropdown/LeadStatusDropdown";
 import { LeadContext } from "@/app/context/LeadContext";
 import { UserContext } from "@/app/context/UserContext";
 import { MainAdminContext } from "@/app/context/AdminContext";
-import { StudentContext } from "../../context/StudentContext";
+import { StudentContext } from "../../context/studentContext";
 import { getAllLead, updateLead } from "@/app/api/leadApi";
 import RemarkDropdown from "../Dropdown/RemarkDropdown";
 

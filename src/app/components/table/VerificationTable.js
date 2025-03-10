@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { getAllLead, updateLead } from "@/app/api/leadApi";
 import { MainAdminContext } from "@/app/context/AdminContext";
 import { PaymentContext } from "@/app/context/PaymentContext";
-import { StudentContext } from "../../context/StudentContext";
+import { StudentContext } from "../../context/studentContext";
 import { UserContext } from "@/app/context/UserContext";
 import { LeadContext } from "@/app/context/LeadContext";
 import CourseDropdown from "../Dropdown/CourseDropdown";

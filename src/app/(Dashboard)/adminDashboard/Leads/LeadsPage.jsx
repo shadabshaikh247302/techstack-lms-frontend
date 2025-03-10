@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 import { UserContext } from "@/app/context/UserContext";
 import { LeadContext } from "@/app/context/LeadContext";
 import { PaymentContext } from "@/app/context/PaymentContext";
-import { StudentContext } from "../../../context/StudentContext"
+import { StudentContext } from "../../../context/studentContext"
 import { MainAdminContext } from "@/app/context/AdminContext";
 
 import Loader from "@/app/components/common/Loader";

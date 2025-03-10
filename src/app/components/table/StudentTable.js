@@ -6,7 +6,7 @@ import CourseDropdown from "../Dropdown/CourseDropdown";
 import EmiDrowdown from "../Dropdown/EmiDropdownModal";
 
 import { UserContext } from "@/app/context/UserContext";
-import { StudentContext } from "../../context/StudentContext";
+import { StudentContext } from "../../context/studentContext";
 import { MainAdminContext } from "@/app/context/AdminContext";
 import RemarkDropdown from "../Dropdown/RemarkDropdown";
 import { getAllStd, updateStd } from "@/app/api/studentApi";

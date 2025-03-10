@@ -2,7 +2,7 @@
 import React, { useContext, useState } from "react";
 import { MainAdminContext } from "@/app/context/AdminContext";
 import { PaymentContext } from "@/app/context/PaymentContext";
-import { StudentContext } from "../../context/StudentContext";
+import { StudentContext } from "../../context/studentContext";
 import { UserContext } from "@/app/context/UserContext";
 import { updatePayment } from "@/app/api/paymentApi";
 import { getAllStd } from "@/app/api/studentApi";
