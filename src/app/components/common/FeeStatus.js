@@ -1,7 +1,7 @@
 "use client"
 import React, { useContext, useEffect, useState } from 'react'
 import { getPaymentByEmiId } from '@/app/api/paymentApi';
-import { StudentContext } from '../../context/StudentContext'
+import { StudentContext } from '../../context/studentContext'
 import { PaymentContext } from '@/app/context/PaymentContext';
 import { StudentLoginContext } from '@/app/context/StudentLoginContext';
 
